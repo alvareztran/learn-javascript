@@ -1,7 +1,13 @@
------------ 1. Câu lệnh Console ----------
+----------- 1. Câu lệnh console.log() ----------
 
 - console.log(): in ra màn hình console
 - console.error(): hiển thị thông báo lỗi
 - console.warn(): hiển thị cảnh báo
 
------------ 1. Câu lệnh Console ----------
+----------- 2. Câu lệnh alert()       ----------
+
+- Tạo thông báo
+
+
+
+
