@@ -33,7 +33,7 @@ if (saveBtn) {
 })
 }
 
-const displayTodoList = () => {
+const renderTodoList = () => {
     const tbody = document.querySelector("#todo-list tbody");
     const myTodoStr = localStorage.getItem("myTodo");
 
@@ -44,13 +44,13 @@ const displayTodoList = () => {
             <tr>
                 <td>${value.id}</td>
                 <td>${value.name}</td>
-                <td><button data-id="${value.id}" class="delete-btn">Xóa</button></td>
+                <td><button data-id="${value.id}" class="delete-btn">Delete</button></td>
             </tr>`;
         })
     }
 }
 
-displayTodoList();
+renderTodoList();
 
 const handleDeleteTodo = (id) => {
     const myTodoStr = localStorage.getItem("myTodo");
